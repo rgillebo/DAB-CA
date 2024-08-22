@@ -26,7 +26,7 @@ Animal Adoption is a web application that allows users to adopt animals listed i
 
 1. **Download the project:**
 
-- Navigate to the repository [https://github.com/noroff-backend-1/aug23ft-dab-ca-1-rgillebo](https://github.com/noroff-backend-1/aug23ft-dab-ca-1-rgillebo)
+- Navigate to the repository [https://github.com/rgillebo/DAB-CA](https://github.com/rgillebo/DAB-CA)
 - Click on the "Code" button.
 - In the dropdown, select "Download ZIP".
 - Extract the downloaded ZIP file to your preferred directory.  
@@ -37,7 +37,7 @@ Animal Adoption is a web application that allows users to adopt animals listed i
 - Navigate to the project directory: 
 
     ```bash 
-    cd path/to/aug23ft-dab-ca-1-rgillebo 
+    cd path/to/DAB-CA
     ```
 
 - Run the following command to install dependencies: 
@@ -78,7 +78,7 @@ Animal Adoption is a web application that allows users to adopt animals listed i
 1. If already navigated to project directory, skip to step 2. If not, in a terminal or command prompt run: 
 
     ```bash 
-    cd path/to/aug23ft-dab-ca-1-rgillebo  
+    cd path/to/DAB-CA  
     ```
 
 2. In a terminal or command prompt, run the following command to start the server: 
