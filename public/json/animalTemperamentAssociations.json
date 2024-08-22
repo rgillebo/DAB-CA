@@ -1,0 +1,18 @@
+{
+    "associations": [
+      { "animalId": 1, "temperamentIds": [1, 2] },
+      { "animalId": 2, "temperamentIds": [1, 2] },
+      { "animalId": 3, "temperamentIds": [3] },
+      { "animalId": 4, "temperamentIds": [1, 4] },
+      { "animalId": 5, "temperamentIds": [1, 5] },
+      { "animalId": 6, "temperamentIds": [1] },
+      { "animalId": 7, "temperamentIds": [1, 5] },
+      { "animalId": 8, "temperamentIds": [1, 2, 5] },
+      { "animalId": 9, "temperamentIds": [1, 4] },
+      { "animalId": 10, "temperamentIds": [2] },
+      { "animalId": 11, "temperamentIds": [1, 2] },
+      { "animalId": 12, "temperamentIds": [1, 2] },
+      { "animalId": 13, "temperamentIds": [1, 4] }
+    ]
+  }
+  

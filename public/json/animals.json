@@ -1,0 +1,57 @@
+{
+  "records": [
+    
+    {
+      "id": 1,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (1, 'Coco', 1, '2020-02-12', 'small');"
+    },
+    {
+      "id": 2,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (2, 'Ted', 2, '2021-02-12', 'small');"
+    },
+    {
+      "id": 3,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (3, 'Coco', 3, '2020-02-12', 'medium');"
+    },
+    {
+      "id": 4,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (4, 'Everest', 4, '2019-02-12', 'small');"
+    },
+    {
+      "id": 5,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (5, 'Rocko', 5, '2020-02-12', 'medium');"
+    },
+    {
+      "id": 6,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (6, 'Goldy', 6, '2023-02-12', 'small');"
+    },
+    {
+      "id": 7,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (7, 'Lizzy', 7, '2020-02-12', 'medium');"
+    },
+    {
+      "id": 8,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (8, 'Goga', 8, '2018-02-12', 'large');"
+    },
+    {
+      "id": 9,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (9, 'Tweet Tweet', 9, '2020-02-12', 'large');"
+    },
+    {
+      "id": 10,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (10, 'Toothless', 10, '2017-02-12', 'medium');"
+    },
+    {
+      "id": 11,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (11, 'Sophie', 1, '2020-02-12', 'small');"
+    },
+    {
+      "id": 12,
+      "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (12, 'Teddy', 2, '2021-02-12', 'small');"
+    },
+    {
+        "id": 13,
+        "query": "INSERT INTO Animals (id, name, speciesId, birthday, size) VALUES (13, 'Roger', 9, '2020-02-18', 'large');"
+    }
+]
+}  

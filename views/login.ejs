@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAB - Adoption Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/base.css">
+  <link rel="stylesheet" href="/stylesheets/index.css">
+  <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+  <div class="flash-messages">
+  <%- include('./partials/navbar.ejs') %>
+  <% if(user) { %>
+    <p>Access Denied: You do not have admin privileges.</p>
+    <a href="/animals" class="btn btn-primary">Back to Animals</a>
+  <% } else { %>
+    <% if(errorMessages.length > 0) { %>
+      <div class="alert alert-danger" role="alert">
+        <% errorMessages.forEach(function(message) { %>
+          <p><%= message %></p>
+        <% }); %>
+      </div>
+    <% } %>
+  </div>   
+    <div id="login-form">
+      <form action="/login" method="post"> 
+        <section>
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+        </section>
+        <section>
+          <label for="current-password">Password</label>
+          <input id="current-password" name="password" type="password" autocomplete="current-password" required>
+        </section>
+        <button type="submit">Sign in</button>
+      </form>
+      <hr>
+      <p class="help">Don't have an account? <a href="/signup">Sign up</a></p>
+    </div>
+  <% } %>
+
+  <footer class="info">
+    <p>Created by <a href="https://www.noroff.no/en/">Noroff</a></p>
+    <p>Part of Back-end Development Program at Noroff</p>
+    <p>Authentication powered by <a href="https://www.passportjs.org">Passport</a></p>
+  </footer>
+</body>
+</html>
